@@ -90,7 +90,7 @@ deploy_prod_job:
         - scp -r -P $SSH_PORT dist/. $SSH_HOST:$PROD_DOMAIN_PATH
     stage: deploy
     only:
-        - main@giricgoyal/personio-demo
+        - main
     environment:
         name: production
     allow_failure: false
