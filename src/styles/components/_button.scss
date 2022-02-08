@@ -1,0 +1,22 @@
+.button {
+    cursor: pointer;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $blue-500;
+    color: $white;
+    border: 0;
+
+    &--secondary {
+        background-color: $white;
+        border: 1px solid $black;
+        color: $black;
+    }
+
+    &--tertiary {
+        background-color: transparent;
+        border: 0px;
+        color: $blue-500;
+    }
+}

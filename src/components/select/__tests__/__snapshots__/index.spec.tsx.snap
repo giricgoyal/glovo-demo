@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/select should render and match snapshot 1`] = `
+<div>
+  <label
+    class="select"
+  >
+    <span
+      class="select__label"
+    >
+      label
+    </span>
+    <select
+      class="select__element"
+      data-testid="select-input"
+    >
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option1"
+      >
+        option 1
+      </option>
+    </select>
+    <i
+      class="fas fa-caret-down "
+    />
+  </label>
+</div>
+`;

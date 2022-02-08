@@ -1,5 +1,9 @@
 .app {
     overflow: none;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: $grey-100;
 
     &__page {
         overflow: auto;
