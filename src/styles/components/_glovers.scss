@@ -1,0 +1,38 @@
+.glovers {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    gap: 10px;
+
+    &__add-glover {
+        display: flex;
+
+        &__add-input {
+            flex: 1;
+        }
+
+        button {
+            width: 85px;
+        }
+    }
+
+    &__glover-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+
+        &__list-item {
+            display: flex;
+
+            &__label {
+                flex: 1;
+            }
+
+            button {
+                width: 85px;
+            }
+        }
+    }
+}

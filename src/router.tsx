@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Module1 from './modules/module1'
+import Glovers from './modules/glovers'
 
 export default function Router(): React.ReactElement {
     return (
         <Routes>
-            <Route path="/" element={<Module1 />} />
+            <Route path="/" element={<Glovers />} />
         </Routes>
     )
 }
